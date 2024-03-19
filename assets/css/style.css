@@ -8,15 +8,19 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
 }
 
+.navbar-brand .simple-header {
+    color: white; /* Set text color to white */
+}
+
+.logo-image {
+    max-width: 100px; /* Set maximum width */
+    max-height: 50px; /* Set maximum height */
+}
+
 /*3 rules below push the footer down*/
 html, body {
     height: 100%;
     margin: 0;
-}
-
-main {
-    flex: 1;
-    margin-top: auto;
 }
 
 .wrapper {
@@ -25,10 +29,40 @@ main {
     flex-direction: column;
 }
 
-/* so that jumbotron is not partially hidden under header*/
-.Jumbotron {
-    margin-top: 100px;
+.footer-container {
+    width: 100%;
+    margin-top: auto; 
+    padding-left: 50px;
+    padding-right: 50px; 
+} 
+
+/* home page CTA buttons*/
+
+.btn-custom-1 {
+    background-color: #0d6efd; /* Set background color to white */
+    color: rgb(255, 255, 255); /* Set text color to black */
+    border-color: #0d6efd; /* Set border color to black */
 }
+
+.btn-custom-1:hover {
+    background-color: #000000; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+    border-color: #000000;
+}
+
+
+/*Home page CTA*/
+.centered-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Set the height to full viewport height */
+    margin-top: 25px;
+}
+
+
+
 
 
 
