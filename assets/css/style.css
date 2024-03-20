@@ -103,13 +103,17 @@ html, body {
 }
 
 .examplesite2 {
-    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710859086/Project%201/ghg_drsfjl.png');
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710927474/Project%201/04_AM_rkhdzb.png');
 }
 
 .examplesite3 {
-    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710860915/Project%201/PM_j9v54w.png');
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710927339/Project%201/2_AM_u3ocym.png');
 }
 
 .examplesite4 {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710861450/Project%201/51_PM_kdrri6.png');
+}
+
+.examplesite5 {
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710927625/Project%201/jiji_jffwjz.png');
 }
