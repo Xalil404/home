@@ -29,6 +29,7 @@ html, body {
     flex-direction: column;
 }
 
+/* footer */
 .footer-container {
     width: 100%;
     margin-top: auto; 
@@ -98,22 +99,72 @@ html, body {
 }
 
 
+/* Images for the portfolio projects */
 .examplesite {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710858770/Project%201/asa_zn2i4y.png');
 }
+
+.examplesite-bg {
+    background-color: #F4CE14;
+}
+
 
 .examplesite2 {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710927474/Project%201/04_AM_rkhdzb.png');
 }
 
+.examplesite-bg2 {
+    background-color: #D6E6F2;
+}
+
+
 .examplesite3 {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710927339/Project%201/2_AM_u3ocym.png');
 }
+
+.examplesite-bg3 {
+    background-color: #D6E6F2;
+}
+
 
 .examplesite4 {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710861450/Project%201/51_PM_kdrri6.png');
 }
 
+.examplesite-bg4 {
+    background-color: #F4CE14;
+}
+
+
 .examplesite5 {
     background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710927625/Project%201/jiji_jffwjz.png');
+}
+
+.examplesite-bg5 {
+    background-color: #F4CE14;
+}
+
+
+.examplesite6 {
+    background-image: url('');
+}
+
+.examplesite-bg6 {
+    background-color: #D6E6F2;
+}
+
+/*                                           Contact page CSS                              */
+
+.contact-body {
+    background-color: #EEEEEE;
+}
+
+.contact-container {
+    margin-top: 75px;
+    padding-top: 25px;
+}
+
+.contact-image {
+    width: 500px;
+    height: 500px;
 }
