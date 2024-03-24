@@ -24,15 +24,15 @@ html, body {
 }
 
 .wrapper {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+    background-image: url('https://res.cloudinary.com/dugcwv1mf/image/upload/v1710841082/Project%201/alessio-soggetti-17_tB-oI0ao-unsplash_qz1hic.jpg');
+    background-size: cover;
+    
 }
+
 
 /* footer */
 .footer-container {
     width: 100%;
-    margin-top: auto; 
     padding-left: 50px;
     padding-right: 50px; 
 } 
@@ -123,7 +123,7 @@ html, body {
 }
 
 .examplesite-bg3 {
-    background-color: #D6E6F2;
+    background-color: #89f414;
 }
 
 
@@ -141,7 +141,7 @@ html, body {
 }
 
 .examplesite-bg5 {
-    background-color: #F4CE14;
+    background-color: #D6E6F2;
 }
 
 
@@ -150,7 +150,7 @@ html, body {
 }
 
 .examplesite-bg6 {
-    background-color: #D6E6F2;
+    background-color: #89f414;
 }
 
 /*                                           Contact page CSS                              */
