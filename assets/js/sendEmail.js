@@ -1,3 +1,9 @@
+// Function to reset form fields
+function resetForm(form) {
+    form.reset();
+}
+
+
 function sendMail(contactForm) {
     emailjs.send("service_8oalq1f","template_qylrnc3", {
         "from_name": contactForm.name.value,
@@ -9,6 +15,7 @@ function sendMail(contactForm) {
         function(response) {
             console.log("SUCCESS", response);
             document.getElementById("success-popup").style.display = "block";
+            resetForm(contactForm); 
         },
         function(error) {
             console.log("FAILED", error);
@@ -16,3 +23,5 @@ function sendMail(contactForm) {
     );
     return false;  // To block from loading a new page
 }
+
+
